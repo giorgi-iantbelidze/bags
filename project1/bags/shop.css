@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#A29C9C;
+    position: fixed;
+    z-index: 999;
+    max-width: 1903px;
+    width: 100%;
+    margin: 0px;
+}
+.hreficon{
+    display: none;
+}
+.inputnaw{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(156, 154, 154);
+    position: relative;
+    top: -13px;
+}
+.inputnaw:hover{
+    border-bottom: white 2px solid;
+    background-color: black;
+}
+.parenting{
+    display: inline-block;
+    position: relative;
+}
+.childing{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top:40px;
+    left: -60px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: #A29C9C;
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+    z-index: 1;
+    text-align: center;
+}
+a:hover{
+    color: white;
+    transition: 1s;
+}
+.shopping{
+    height: 40px;
+}
+ a{
+    color: #A29C9C;
+    display: block;
+    text-decoration: none;
+    transition: 1s
+}
+.parenting:hover .childing{
+    display: block;
+}
+.buttton{
+position: fixed;
+top: 700px;
+right: 5px;
+z-index: 1111;
+}
+.q{
+    color: white;
+}
+.split{
+    display: flex;
+    gap: 8px;
+    font-size: 25px;
+}
+.ul1{
+    display: flex;
+    position: relative;
+    top: 13px;
+    gap: 50px;
+}
+.li0{
+    list-style-type: none;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+.li0:hover{
+    color: white;
+    transition-duration: 1s;
+}
+.buttton{
+    position: fixed;
+    top: 865px;
+    min-height: 60px;
+    min-width: 60px;
+    right: 25px;
+    z-index: 1111;
+    background-color: rgba(0, 0, 0, 0.308);
+    }
+    .icon{
+        position: fixed;
+        z-index: 1000;
+        top: 300px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        height: 170px;
+        width:  100px;
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+    .parent0{
+        max-width: 1903px;
+        width: 97%;
+        height: 400px;
+        position: relative;
+        color: white;
+        left: 10px;
+    }
+   
+    .parent3{
+        max-width: 1903px;
+        width: 92%;
+        height: 30px;
+        display: flex;
+        position: absolute;
+        top: 110px;
+        left: 55px;
+        font-size:17px;
+    }
+    .p:hover{
+        color: #A29C9C;
+
+    }
+    .parent1{
+        position: absolute;
+        top: 220px;
+        left: 290px;
+    }
+    .h1{
+        font-size: 45px;
+    }
+    .parent2{
+       position: absolute;
+       width: 210px;
+       height: 435px;
+       border: 1px solid black;
+       top: 150px;
+       color: white;
+       left: 50px;
+    }
+    .parent2 hr{
+        border: 0.1px solid white;
+
+    }
+    .child1{
+        width: 100%;
+        height: 45px;
+    }
+    .child2{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .ul2{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 20px;
+    }
+    .ul2 :first-child{
+        text-decoration: underline;
+    }
+    .child3,.child4{
+        height: 55px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .parent4{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 290px;
+        padding-right: 70px;
+        height: 90px;
+        color: white;
+    }
+    .bags{
+        max-width: 1903px;
+        width: 100%;
+        height: 405vh;
+        padding-left: 300px;
+        color: white;
+        background-color: black;
+    }
+    .bags>div{
+        display: flex;
+        height: 645px;
+    }
+    .bags>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .bags>div>div>img{
+        max-width: 500px;
+        width: 100%;
+    }
+    .bags>div>div>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    .bags>div>div>div{
+        max-width: 500px;
+        width: 100%;
+    }
+    .bags>div>div>div p svg{
+        color:#80A315;
+    }
+    hr{
+       max-width: 1903px;
+        position: relative;
+        border: 3px solid black;
+        z-index: 11111;
+    }
+    .footer{
+        max-width: 1903px;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        color: #A29C9C;
+        background-color: #1A1919;
+    }
+    .footeri{
+        max-width: 1903px;
+        width: 100%;
+        height: 150px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        color: #A29C9C;
+        background-color: #1A1919;
+    }
+    .ui2{
+        display: flex;
+        gap: 19px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    .hreficon,.inputforsearch{
+        display: none;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        body{
+            max-width: 400px;
+            width: 100%;
+            height: 1390vh;
+            max-width: 400px;
+            width: 100%;
+            margin: 0px;
+            background-color: black;
+            
+        }
+        html{
+            height: 1390vh;
+        }
+        .hreficon{
+            display: inline;
+            padding: 0px;
+            margin:0px;
+            
+         
+        }
+        .nav{
+           position: static;
+           margin: 0px;
+        }
+      
+        .nav a i{
+            position: relative;
+            font-size: 30px;
+            display: inline;
+            z-index: 9999;
+            padding-right: 20px;
+            top: -15px;
+            color: white;
+        }
+        .nav>input{
+            display: inline;
+            position: relative;
+            top: 27px;
+            left: -160px;
+            padding-bottom: 10px;
+            border: none;
+            border-bottom: 1px solid rgb(156, 154, 154);
+            background-color: transparent;
+            font-size: 14px;
+          
+        }
+        .split{
+            padding-bottom: 30px;
+        }
+    .icon img{
+       display: none;
+        background-color:transparent;}
+    .split2{
+          display: none;}
+     .parent2{
+          display: none;
+           }
+           .parent3{
+               top: -20px;
+               left: 25px;
+           }
+           .parent1{
+               height: 100px;
+               top: 10px;
+               left: 20px;
+           }
+           .parent4{
+        max-width: 400px;
+               left: 10px;
+               padding: 0px;
+               justify-content: space-around;
+           }
+           .parent0{
+              max-width: 370px;
+              width: 100%;
+               padding: 0px;
+               height: 200px;
+               left: 0px;
+               margin: 0px;
+           }
+           .bags{
+            
+               display: flex;
+               flex-wrap: wrap;
+               padding-left: 0px;
+           }
+           .bags>div{
+               max-width: 400px;
+               width: 100%;
+               flex-wrap: wrap;
+               height: 1700px;
+           }
+           .footer{
+               display: none;
+           }
+           .footeri{
+               display: flex;
+               max-width: 400px;
+               width: 100%;
+           }
+           .footeri{
+            flex-direction: column;
+            height: 350px;
+        }
+        .footeri>h3{
+            width: 240px;
+        }
+        .ui2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+           .buttton{
+            top: 590px;
+            left: 350px;
+            width: 40px;
+        }
+        .icon{
+            display: none;
+        }
+}

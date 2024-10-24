@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: rgb(241, 239, 239);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#A29C9C;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin: 0px;
+}
+.inputnaw{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(156, 154, 154);
+    position: relative;
+    top: -13px;
+}
+.inputnaw:hover{
+    border-bottom: white 2px solid;
+    background-color: black;
+}
+.parenting{
+    display: inline-block;
+    position: relative;
+}
+.childing{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top:40px;
+    left: -60px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: #A29C9C;
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+    z-index: 1;
+    text-align: center;
+}
+a:hover{
+    color: white;
+    transition: 1s;
+}
+.shopping{
+    height: 40px;
+}
+ a{
+    color: #A29C9C;
+    display: block;
+    text-decoration: none;
+    transition: 1s
+}
+.parenting:hover .childing{
+    display: block;
+}
+.buttton{
+position: fixed;
+top: 700px;
+right: 5px;
+z-index: 1111;
+}
+.q{
+    color: white;
+}
+.split{
+    display: flex;
+    gap: 8px;
+    font-size: 25px;
+}
+.ul1{
+    display: flex;
+    position: relative;
+    top: 13px;
+    gap: 50px;
+}
+.li0{
+    list-style-type: none;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+.li0:hover{
+    color: white;
+    transition-duration: 1s;
+}
+.buttton{
+    position: fixed;
+    top: 865px;
+    min-height: 60px;
+    min-width: 60px;
+    right: 25px;
+    z-index: 1111;
+    background-color: rgba(0, 0, 0, 0.308);
+    }
+    .icon{
+        position: fixed;
+        z-index: 1000;
+        top: 300px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        height: 170px;
+        width:  100px;
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+    .parent0{
+        width: 100%;
+        height: 112vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        gap: 20px;
+        color: white;
+        background-color: black;
+    }
+    .parent1{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: end;
+    }
+    .parent2{
+        width: 50%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+    }
+    .price{
+        display: flex;
+       gap: 10px;
+       font-size: 20px;
+
+    }
+    .price span{
+        border: solid 1px rgb(184, 182, 182);
+       
+        padding: 10px 10px;
+    }
+    .price span:hover{
+        border: solid 1px white;
+    }
+    .span{
+        border: solid 1px rgb(184, 182, 182);
+        padding: 10px 10px;
+        width: 90px;
+    }
+    .span:hover{
+        border: solid 1px white;
+    }
+    .child1{
+        width: 482px;
+        height: 332px;
+        overflow: hidden;
+    
+    }
+    .img1{
+        transition: 1s;
+    }
+    .img1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    }
+    
+    form input{
+     width: 444px;
+     height: 43px;
+     background-color: black;
+     display: flex;
+     gap: 20px;
+     font-size: 18px;
+     border: solid 1px rgb(184, 182, 182);
+    }
+    form input:hover{
+        border: solid 1px white;
+    }
+    form label{
+        font-size: 18px;
+    }
+    .child5{
+        display: flex;
+        gap: 20px;
+    }
+    .child5 span{
+        width: 200px;
+        height: 40px;
+        border: solid 1px rgb(184, 182, 182);
+        text-align: center;
+        padding-top: 8px; 
+    }
+    .child5 span:hover{
+        border: solid 1px white;
+    }
+    .footer{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        color: #A29C9C;
+        background-color: #1A1919;
+    }
+    .ui2{
+        display: flex;
+        gap: 19px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    .inputforsearch, .hreficon{
+        display: none;
+    }
+    @media screen and (max-width: 1000px) {
+        body{
+            max-width: 400px;
+            width: 100%;
+            height: 1390vh;
+            max-width: 400px;
+            width: 100%;
+            margin: 0px;
+            background-color: black;
+            
+        }
+        html{
+            height: 1390vh;
+        }
+        .hreficon{
+            display: inline;
+            padding: 0px;
+            margin:0px;
+            
+         
+        }
+        nav{
+           position: static;
+           margin: 0px;
+           max-width: 400px;
+           width: 100%;
+           padding-left: 20px;
+       
+        }
+      
+        nav> a> i{
+            position: relative;
+            font-size: 30px;
+            display: inline;
+            z-index: 9999;
+            padding-right: 20px;
+            top: -15px;
+            color: white;
+        }
+      .inputforsearch{
+            display: inline;
+            position: relative;
+            top: 27px;
+            left: -160px;
+            padding-bottom: 10px;
+            border: none;
+            border-bottom: 1px solid rgb(156, 154, 154);
+            background-color: transparent;
+            font-size: 14px;
+            max-width: 200px;
+          
+        }
+        .split{
+            padding-bottom: 30px;
+        }
+    .icon img{
+       display: none;
+        background-color:transparent;}
+    .split2{
+          display: none;}
+          .parent0{
+              display: flex;
+              flex-direction: column;
+              justify-content: start;
+              padding: 0px;
+              height: 250vh;
+          }
+          .footer{
+              display: none;
+          }
+          .parent1{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              height: 290px;
+          }
+          .img1{
+              width: 360px;
+              height: 230px;
+        
+      
+          }
+          .child1{
+              width: 360px;
+              height: 230px;
+              display: flex;
+       
+              
+          }
+          .icon{
+            display: none;
+        }
+        .parent2{
+            height: 200vh;
+            width: 100%;
+            padding-left: 20px;
+        }
+        .child5{
+            flex-direction: column;
+            width: 350px;
+
+        }
+        .child5>span{
+            width: 360px;
+            height: 50px;
+            font-size: 26px;
+        }
+        form>input{
+            width: 360px;
+            height: 50px;
+            font-size: 26px; 
+        }
+    }
+    
+    

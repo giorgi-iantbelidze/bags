@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px;
+    position: relative;
+    top: -15px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#A29C9C;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    margin: 0px;
+}
+.hreficon{
+    display: none;
+}
+.inputforsearch{
+    display: none;
+}
+.inputnaw{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(156, 154, 154);
+    position: relative;
+    top: -13px;
+}
+.inputnaw:hover{
+    border-bottom: white 2px solid;
+    background-color: black;
+}
+.parenting{
+    display: inline-block;
+    position: relative;
+}
+.childing{
+    display: none;
+    justify-content: center;
+    position: absolute;
+    top:40px;
+    left: -60px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.534);
+    color: #A29C9C;
+    width: 150px;
+    height: 150px;
+    font-size: 16px;
+    z-index: 1;
+    text-align: center;
+}
+a:hover{
+    color: white;
+    transition: 1s;
+}
+.shopping{
+    height: 40px;
+}
+ a{
+    color: #A29C9C;
+    display: block;
+    text-decoration: none;
+    transition: 1s
+}
+.parenting:hover .childing{
+    display: block;
+}
+.buttton{
+position: fixed;
+top: 700px;
+right: 5px;
+z-index: 1111;
+}
+.q{
+    color: white;
+}
+.split{
+    display: flex;
+    gap: 8px;
+    font-size: 25px;
+}
+.ul1{
+    display: flex;
+    position: relative;
+    top: 13px;
+    gap: 50px;
+}
+.li0{
+    list-style-type: none;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+.li0:hover{
+    color: white;
+    transition-duration: 1s;
+}
+.buttton{
+    position: fixed;
+    top: 865px;
+    min-height: 60px;
+    min-width: 60px;
+    right: 25px;
+    z-index: 1111;
+    background-color: rgba(0, 0, 0, 0.308);
+    }
+    .icon{
+        position: fixed;
+        z-index: 1000;
+        top: 300px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        height: 170px;
+        width:  100px;
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+.parent0{
+width: 100%;
+height: 150vh;
+color: white;
+background-color: black;
+}
+.parent1{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+.parent1 h2{
+    position: absolute;
+    top: 200px;
+    font-size:50px;
+    left: 600px;
+}
+.parent1 p{
+    position: absolute;
+    top: 320px;
+    left: 487px;
+    font-size: 24px;
+}
+.parent2{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.child1{
+    width: 618px;
+    height: 390px;
+    border: solid 1px rgb(207, 203, 203);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.child2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.child2 > div{
+border: 1px solid rgb(155, 155, 155);
+padding: 8px;
+}
+.child2>div:hover{
+    border: solid 1px white;
+}
+.child2 input{
+    border: none;
+    background-color: black;
+}
+.child2 svg{
+    color: white;
+}
+
+.child2 h2{
+    padding: 25px 0px;
+    color: white;
+}
+.li1{
+    display: flex;
+    position: relative;
+}
+.child21{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: white;
+}
+.child21:hover h3{
+    color: green;
+}
+.join{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 16px;
+    width: 90px;
+    height: 100%;
+    display: none;
+    background-color: white;
+  
+}
+
+.join h2{
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    color: black;
+}
+.join:hover{
+    background-color: green;
+}
+.li1:hover .join{
+    display: block;
+}
+.child2{
+    width: 282px;
+    height: 341px;
+    border: solid 1px rgb(207, 203, 203);
+    padding: 15px 15px;
+    background-color: black;
+}
+hr{
+    width: 100%;
+    position: relative;
+    border: 3px solid black;
+    z-index: 11111;
+}
+.footer{
+    max-width: 1903px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    color: #A29C9C;
+    background-color: #1A1919;
+}
+.ul2{
+    display: flex;
+    gap: 19px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+@media screen and (max-width: 1000px) {
+    body{
+        max-width: 400px;
+        width: 100%;
+        height: 210vh;
+        
+    }
+    html{
+        height: 210vh;
+    }
+    .hreficon{
+        display: inline;
+        padding: 0px;
+        margin:0px;
+        
+     
+    }
+    .nav{
+       position: static;
+       margin: 0px;
+    }
+    body
+    {
+      max-width: 400px;
+      width: 100%;
+      margin: 0px;
+      background-color: black;
+     
+    }
+    .nav a i{
+        position: relative;
+        font-size: 30px;
+        display: inline;
+        z-index: 9999;
+        padding-right: 20px;
+        top: -15px;
+        color: white;
+    }
+    .nav>input{
+        display: inline;
+        position: relative;
+        top: 27px;
+        left: -160px;
+        padding-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid rgb(156, 154, 154);
+        background-color: transparent;
+        font-size: 14px;
+      
+    }
+    .split{
+        padding-bottom: 30px;
+    }
+    .icon{
+        display: none;
+    }
+.icon img{
+   display: none;
+    background-color:transparent;}
+.split2{
+      display: none;}
+      .parent2{
+       flex-direction: column;
+       align-items: center;
+
+       }
+       .child1{
+           max-width: 370px;
+           width: 100%;
+           height: 200px;
+       }
+       .parent1{
+           max-height: 200px;
+           height: 100%;
+       }
+       .parent1 h2{
+           font-size: 28px;
+           top: 30px;
+           left: 30px;
+       }
+       .parent1 p{
+        font-size: 28px;
+        top: 120px;
+        left: 30px;
+       }
+       .footer{
+           flex-direction: column-reverse;
+           height: 350px;
+       }
+       .footer>h3{
+           width: 240px;
+       }
+       .ul2{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+       .buttton{
+        top: 590px;
+        left: 350px;
+        width: 40px;
+    }
+      
+
+
+}
